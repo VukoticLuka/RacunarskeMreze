@@ -5,7 +5,7 @@ import java.util.concurrent.ThreadLocalRandom;
 public class RaceCondition {
     private static int x = 0;
     private static final int LIMIT = 100000000;
-
+    //add some comment for git
     public static class Test implements Runnable{
         @Override
         public void run() {
