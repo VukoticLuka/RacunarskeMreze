@@ -29,6 +29,7 @@ public class SynchronizedBank implements IBank{
         accounts[from] -= amount;
         accounts[to] += amount;
 
+        //check to se if git works
 
         System.out.printf("Tranfer from %2d to %2d: %4d\n", from, to, amount);
 
