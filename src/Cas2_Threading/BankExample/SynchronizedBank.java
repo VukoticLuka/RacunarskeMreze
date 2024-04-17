@@ -1,5 +1,6 @@
 package Cas2_Threading.BankExample;
 
+import java.net.InetAddress;
 import java.util.Arrays;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
@@ -24,6 +25,8 @@ public class SynchronizedBank implements IBank{
                 e.printStackTrace();
             }
         }
+
+
 
         System.out.println(Thread.currentThread());
         accounts[from] -= amount;
