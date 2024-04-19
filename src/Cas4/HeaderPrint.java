@@ -27,7 +27,7 @@ public class HeaderPrint {
 
                 System.out.println(conn.getHeaderField(0));
 
-                for(int i = 0; ;i++){
+                for(int i = 1; ;i++){
                     String header = conn.getHeaderField(i);
                     if(header == null)
                         break;
